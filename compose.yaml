@@ -1,0 +1,8 @@
+services:
+  mysql:
+    image: 'mysql:latest'
+    environment:
+      - 'MYSQL_DATABASE=leaguedb'
+      - 'MYSQL_ROOT_PASSWORD=diablosv'
+    ports:
+      - '3307:3306'
